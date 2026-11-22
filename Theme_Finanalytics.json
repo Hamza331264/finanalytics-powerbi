@@ -1,0 +1,34 @@
+{
+  "name": "OCP Finanalytics",
+  "dataColors": ["#00563F", "#1F6F8B", "#9AA5A1", "#00A651", "#E67E22", "#C0392B", "#7FC8A9", "#4A5A55"],
+  "background": "#FFFFFF",
+  "foreground": "#1F2D28",
+  "tableAccent": "#00563F",
+  "good": "#00A651",
+  "neutral": "#E67E22",
+  "bad": "#C0392B",
+  "maximum": "#00563F",
+  "center": "#E8F3EE",
+  "minimum": "#F7F9F8",
+  "null": "#DDE5E1",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#00563F" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#00563F" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#1F2D28" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#4A5A55" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DDE5E1" } }, "radius": 8 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#00563F" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F7F9F8" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
